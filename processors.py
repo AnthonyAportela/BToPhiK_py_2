@@ -713,7 +713,7 @@ class ProcessorV2(processor.ProcessorABC):
                 ),
             
             
-            # 'cls_size > 130': (events.cscRechitClusterSize >= 130),
+            'cls_size > 130': (events.cscRechitClusterSize >= 130),
         }
         # <<< cut definitions <<<
 
